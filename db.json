@@ -44,7 +44,7 @@
       "petBreed": "siamês",
       "petType": "gato",
       "petAge": 6,
-      "petSize": "normal",
+      "petSize": "médio",
       "id": 2
     },
     {
@@ -53,7 +53,7 @@
       "petBreed": "sem raça",
       "petType": "cachorro",
       "petAge": 7,
-      "petSize": "normal",
+      "petSize": "médio",
       "id": 3
     }
   ],

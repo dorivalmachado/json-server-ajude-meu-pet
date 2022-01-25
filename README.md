@@ -26,7 +26,7 @@ Formato da requisição:
   "name": "Kenzinho",
   "email": "kenzinho@mail.com",
   "phone": "(22)98729-9061",
-  "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+  "password": "123456",
   "address": "Rua dos bobos, número 0",
   "isClient": false
 }
@@ -56,6 +56,8 @@ Formato da resposta - status 400
 "Email already exists"
 
 <br/><br/>
+
+### Users
 
 GET /users/:user_id
 
@@ -106,6 +108,16 @@ Formato da resposta - status 200
   }
 }
 ```
+
+<br/>
+
+Formato da resposta - status 400
+
+"Cannot find user"
+
+ou
+
+"Incorrect password"
 
 <br/><br/>
 
