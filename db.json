@@ -40,12 +40,21 @@
     },
     {
       "userId": 2,
-      "petName": "Brabo",
-      "petBreed": "pincher",
-      "petType": "cachorro",
-      "petAge": 3,
-      "petSize": "pequeno",
+      "petName": "Lilica",
+      "petBreed": "siamês",
+      "petType": "gato",
+      "petAge": 6,
+      "petSize": "normal",
       "id": 2
+    },
+    {
+      "userId": 2,
+      "petName": "Caramelo",
+      "petBreed": "sem raça",
+      "petType": "cachorro",
+      "petAge": 7,
+      "petSize": "normal",
+      "id": 3
     }
   ],
   "services": [
@@ -61,25 +70,25 @@
       "id": 1
     },
     {
-      "servicesCategory": "treinamento",
-      "servicesDescription": "comando",
-      "servicesDesiredDate": "20220130",
-      "servicesObs": "Quero que meu cachorro aprenda a sentar",
+      "servicesCategory": "taxi",
+      "servicesDescription": "Levar ao veterinário",
+      "servicesDesiredDate": "20220126",
+      "servicesObs": "Informar ao veterinário que ela não se adaptou ao remédio",
       "serviceConclusion": false,
       "clientId": 2,
-      "workerId": 1,
-      "petId": 1,
+      "workerId": null,
+      "petId": 2,
       "id": 2
     },
     {
-      "servicesCategory": "treinamento",
-      "servicesDescription": "comando",
-      "servicesDesiredDate": "20220128",
-      "servicesObs": "Quero que meu cachorro aprenda a deitar",
+      "servicesCategory": "passeio",
+      "servicesDescription": "Passeio longo",
+      "servicesDesiredDate": "20220130",
+      "servicesObs": "Colocar um sapato nele para não queimar as patas",
       "serviceConclusion": false,
       "clientId": 2,
-      "workerId": 1,
-      "petId": 2,
+      "workerId": null,
+      "petId": 3,
       "id": 3
     }
   ]
