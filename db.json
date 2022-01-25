@@ -17,6 +17,15 @@
       "address": "Rua, número, casa",
       "isClient": true,
       "id": 2
+    },
+    {
+      "email": "dogao@mail.com",
+      "password": "$2a$10$Xu1lqZoHhQvU3EqFGCegJ.3XOpSOrNP1LZzqubjPaoTP2JT1cGNzi",
+      "name": "dogao",
+      "address": 38,
+      "phone": "(92)999774411",
+      "isClient": true,
+      "id": 3
     }
   ],
   "pets": [
@@ -28,19 +37,50 @@
       "petAge": 4,
       "petSize": "grande",
       "id": 1
+    },
+    {
+      "userId": 2,
+      "petName": "Brabo",
+      "petBreed": "pincher",
+      "petType": "cachorro",
+      "petAge": 3,
+      "petSize": "pequeno",
+      "id": 2
     }
   ],
   "services": [
     {
       "servicesCategory": "treinamento",
       "servicesDescription": "fazer xixi no jornal",
-      "servicesDesiredDate": "20220129",
+      "servicesDesiredDate": "20220205",
       "servicesObs": "",
       "serviceConclusion": false,
       "clientId": 2,
       "workerId": 1,
       "petId": 1,
       "id": 1
+    },
+    {
+      "servicesCategory": "treinamento",
+      "servicesDescription": "comando",
+      "servicesDesiredDate": "20220130",
+      "servicesObs": "Quero que meu cachorro aprenda a sentar",
+      "serviceConclusion": false,
+      "clientId": 2,
+      "workerId": 1,
+      "petId": 1,
+      "id": 2
+    },
+    {
+      "servicesCategory": "treinamento",
+      "servicesDescription": "comando",
+      "servicesDesiredDate": "20220128",
+      "servicesObs": "Quero que meu cachorro aprenda a deitar",
+      "serviceConclusion": false,
+      "clientId": 2,
+      "workerId": 1,
+      "petId": 2,
+      "id": 3
     }
   ]
 }
