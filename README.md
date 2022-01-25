@@ -11,7 +11,7 @@ Authorization: Bearer {token}
 
 Sendo que o token, é o campo accessToken disponibilizado na resposta do endpoint /login. Nessa documentação é informado quando uma determinada rota precisa de autenticação.
 
-O url base da API é https://json-server-ajude-meu-pet-doriv.herokuapp.com
+O url base da API é https://json-server-ajude-meu-pet.herokuapp.com
 <br/><br/>
 
 ### Register
