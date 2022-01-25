@@ -28,6 +28,24 @@
       "petAge": 4,
       "petSize": "grande",
       "id": 1
+    },
+    {
+      "userId": 2,
+      "petName": "Lilica",
+      "petBreed": "siamês",
+      "petType": "gato",
+      "petAge": 6,
+      "petSize": "normal",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "petName": "Caramelo",
+      "petBreed": "sem raça",
+      "petType": "cachorro",
+      "petAge": 7,
+      "petSize": "normal",
+      "id": 3
     }
   ],
   "services": [
@@ -41,6 +59,28 @@
       "workerId": 1,
       "petId": 1,
       "id": 1
+    },
+    {
+      "servicesCategory": "taxi",
+      "servicesDescription": "Levar ao veterinário",
+      "servicesDesiredDate": "20220126",
+      "servicesObs": "Informar ao veterinário que ela não se adaptou ao remédio",
+      "serviceConclusion": false,
+      "clientId": 2,
+      "workerId": null,
+      "petId": 2,
+      "id": 2
+    },
+    {
+      "servicesCategory": "passeio",
+      "servicesDescription": "Passeio longo",
+      "servicesDesiredDate": "20220130",
+      "servicesObs": "Colocar um sapato nele para não queimar as patas",
+      "serviceConclusion": false,
+      "clientId": 2,
+      "workerId": null,
+      "petId": 3,
+      "id": 3
     }
   ]
 }
