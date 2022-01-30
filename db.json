@@ -32,27 +32,27 @@
     {
       "userId": 2,
       "petName": "Rex",
-      "petBreed": "labrador",
       "petType": "cachorro",
-      "petAge": 4,
+      "petBirthDate": "20/03/2018",
+      "petGender": "male",
       "petSize": "grande",
       "id": 1
     },
     {
       "userId": 2,
       "petName": "Lilica",
-      "petBreed": "siamês",
       "petType": "gato",
-      "petAge": 6,
+      "petBirthDate": "06/08/2020",
+      "petGender": "female",
       "petSize": "médio",
       "id": 2
     },
     {
       "userId": 2,
       "petName": "Caramelo",
-      "petBreed": "sem raça",
       "petType": "cachorro",
-      "petAge": 7,
+      "petBirthDate": "11/09/2015",
+      "petGender": "male",
       "petSize": "médio",
       "id": 3
     }
