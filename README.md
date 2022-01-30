@@ -136,18 +136,18 @@ Formato da resposta - status 200
   {
     "userId": 2,
     "petName": "Rex",
-    "petBreed": "labrador",
     "petType": "cachorro",
-    "petAge": 4,
+    "petBirthDate": "20/03/2018",
+    "petGender": "male",
     "petSize": "grande",
     "id": 1
   },
   {
     "userId": 2,
     "petName": "Brabo",
-    "petBreed": "pincher",
     "petType": "cachorro",
-    "petAge": 6,
+    "petBirthDate": "05/11/2020",
+    "petGender": "male",
     "petSize": "pequeno",
     "id": 2
   }
@@ -165,9 +165,9 @@ Formato de envio do JSON:
 {
   "userId": 2,
   "petName": "Pudim",
-  "petBreed": "persa",
   "petType": "gato",
-  "petAge": 7,
+  "petBirthDate": "17/02/2018",
+  "petGender": "male",
   "petSize": "médio"
 }
 ```
@@ -178,9 +178,9 @@ Formato da resposta:
 {
   "userId": 2,
   "petName": "Pudim",
-  "petBreed": "persa",
   "petType": "gato",
-  "petAge": 7,
+  "petBirthDate": "17/02/2018",
+  "petGender": "male",
   "petSize": "médio",
   "id": 2
 }
@@ -195,7 +195,7 @@ Formato de envio do JSON:
 
 ```json
 {
-  "petAge": 5
+  "petBirthDate": "06/11/2020"
 }
 ```
 
@@ -205,9 +205,9 @@ Formato da resposta:
 {
   "userId": 2,
   "petName": "Brabo",
-  "petBreed": "pincher",
   "petType": "cachorro",
-  "petAge": 10,
+  "petBirthDate": "06/11/2020",
+  "petGender": "male",
   "petSize": "pequeno",
   "id": 2
 }
