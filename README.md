@@ -232,10 +232,19 @@ Formato da resposta - status 200
 ```json
 [
   {
-    "servicesCategory": "treinamento",
-    "servicesDescription": "fazer xixi no jornal",
-    "servicesDesiredDate": "20220129",
-    "servicesObs": "",
+    "servicesCategory": "adestramento",
+    "servicesDescription": "básico",
+    "servicesDesiredDate": "05/02/2022",
+    "servicesDesiredTime": "09:30",
+    "servicesObs": "Quero que meu cachorro aprenda a sentar",
+    "servicesDepartureStreet": "Avenida das Américas",
+    "servicesDepartureNumber": "2345",
+    "servicesDepartureComplement": "bloco 1, ap 1508",
+    "servicesDepartureCity": "Rio de Janeiro",
+    "servicesArrivalStreet": "",
+    "servicesArrivalNumber": "",
+    "servicesArrivalComplement": "",
+    "servicesArrivalCity": "",
     "serviceConclusion": false,
     "clientId": 2,
     "workerId": 1,
@@ -243,10 +252,19 @@ Formato da resposta - status 200
     "id": 1
   },
   {
-    "servicesCategory": "treinamento",
-    "servicesDescription": "comando",
-    "servicesDesiredDate": "20220130",
-    "servicesObs": "Quero que meu cachorro aprenda a sentar",
+    "servicesCategory": "adestramento",
+    "servicesDescription": "avançado",
+    "servicesDesiredDate": "09/02/2022",
+    "servicesDesiredTime": "10:30",
+    "servicesObs": "",
+    "servicesDepartureStreet": "Avenida das Américas",
+    "servicesDepartureNumber": "2345",
+    "servicesDepartureComplement": "bloco 1, ap 1508",
+    "servicesDepartureCity": "Rio de Janeiro",
+    "servicesArrivalStreet": "",
+    "servicesArrivalNumber": "",
+    "servicesArrivalComplement": "",
+    "servicesArrivalCity": "",
     "serviceConclusion": false,
     "clientId": 2,
     "workerId": 1,
@@ -265,14 +283,23 @@ Formato de envio do JSON:
 
 ```json
 {
-  "servicesCategory": "treinamento",
-  "servicesDescription": "comando",
-  "servicesDesiredDate": "20220130",
-  "servicesObs": "Quero que meu cachorro aprenda a sentar",
+  "servicesCategory": "taxi",
+  "servicesDescription": "",
+  "servicesDesiredDate": "26/02/2022",
+  "servicesDesiredTime": "12:00",
+  "servicesObs": "Levar ao veterinário e informar que ela não se adaptou ao remédio",
+  "servicesDepartureStreet": "Avenida das Américas",
+  "servicesDepartureNumber": "2345",
+  "servicesDepartureComplement": "bloco 1, ap 1508",
+  "servicesDepartureCity": "Rio de Janeiro",
+  "servicesArrivalStreet": "Rua Lúcio Costa",
+  "servicesArrivalNumber": "245",
+  "servicesArrivalComplement": "sala 502",
+  "servicesArrivalCity": "Rio de Janeiro",
   "serviceConclusion": false,
   "clientId": 2,
-  "workerId": 1,
-  "petId": 1
+  "workerId": null,
+  "petId": 2,
 }
 ```
 
@@ -280,14 +307,23 @@ Formato da resposta:
 
 ```json
 {
-  "servicesCategory": "treinamento",
-  "servicesDescription": "comando",
-  "servicesDesiredDate": "20220130",
-  "servicesObs": "Quero que meu cachorro aprenda a sentar",
+  "servicesCategory": "taxi",
+  "servicesDescription": "",
+  "servicesDesiredDate": "26/02/2022",
+  "servicesDesiredTime": "12:00",
+  "servicesObs": "Levar ao veterinário e informar que ela não se adaptou ao remédio",
+  "servicesDepartureStreet": "Avenida das Américas",
+  "servicesDepartureNumber": "2345",
+  "servicesDepartureComplement": "bloco 1, ap 1508",
+  "servicesDepartureCity": "Rio de Janeiro",
+  "servicesArrivalStreet": "Rua Lúcio Costa",
+  "servicesArrivalNumber": "245",
+  "servicesArrivalComplement": "sala 502",
+  "servicesArrivalCity": "Rio de Janeiro",
   "serviceConclusion": false,
   "clientId": 2,
-  "workerId": 1,
-  "petId": 1,
+  "workerId": null,
+  "petId": 2,
   "id": 2
 }
 ```
@@ -299,7 +335,7 @@ Formato de envio do JSON:
 
 ```json
 {
-  "servicesDesiredDate": "20220205"
+  "servicesDesiredDate": "10/02/2022"
 }
 ```
 
@@ -307,10 +343,19 @@ Formato da resposta:
 
 ```json
 {
-  "servicesCategory": "treinamento",
-  "servicesDescription": "fazer xixi no jornal",
-  "servicesDesiredDate": "20220205",
-  "servicesObs": "",
+  "servicesCategory": "adestramento",
+  "servicesDescription": "básico",
+  "servicesDesiredDate": "10/02/2022",
+  "servicesDesiredTime": "09:30",
+  "servicesObs": "Quero que meu cachorro aprenda a sentar",
+  "servicesDepartureStreet": "Avenida das Américas",
+  "servicesDepartureNumber": "2345",
+  "servicesDepartureComplement": "bloco 1, ap 1508",
+  "servicesDepartureCity": "Rio de Janeiro",
+  "servicesArrivalStreet": "",
+  "servicesArrivalNumber": "",
+  "servicesArrivalComplement": "",
+  "servicesArrivalCity": "",
   "serviceConclusion": false,
   "clientId": 2,
   "workerId": 1,
@@ -339,10 +384,19 @@ Formato da resposta - status 200
 ```json
 [
   {
-    "servicesCategory": "treinamento",
-    "servicesDescription": "fazer xixi no jornal",
-    "servicesDesiredDate": "20220205",
-    "servicesObs": "",
+    "servicesCategory": "adestramento",
+    "servicesDescription": "básico",
+    "servicesDesiredDate": "05/02/2022",
+    "servicesDesiredTime": "09:30",
+    "servicesObs": "Quero que meu cachorro aprenda a sentar",
+    "servicesDepartureStreet": "Avenida das Américas",
+    "servicesDepartureNumber": "2345",
+    "servicesDepartureComplement": "bloco 1, ap 1508",
+    "servicesDepartureCity": "Rio de Janeiro",
+    "servicesArrivalStreet": "",
+    "servicesArrivalNumber": "",
+    "servicesArrivalComplement": "",
+    "servicesArrivalCity": "",
     "serviceConclusion": false,
     "clientId": 2,
     "workerId": 1,
@@ -350,10 +404,19 @@ Formato da resposta - status 200
     "id": 1
   },
   {
-    "servicesCategory": "treinamento",
-    "servicesDescription": "comando",
-    "servicesDesiredDate": "20220130",
-    "servicesObs": "Quero que meu cachorro aprenda a sentar",
+    "servicesCategory": "adestramento",
+    "servicesDescription": "avançado",
+    "servicesDesiredDate": "09/02/2022",
+    "servicesDesiredTime": "10:30",
+    "servicesObs": "",
+    "servicesDepartureStreet": "Avenida das Américas",
+    "servicesDepartureNumber": "2345",
+    "servicesDepartureComplement": "bloco 1, ap 1508",
+    "servicesDepartureCity": "Rio de Janeiro",
+    "servicesArrivalStreet": "",
+    "servicesArrivalNumber": "",
+    "servicesArrivalComplement": "",
+    "servicesArrivalCity": "",
     "serviceConclusion": false,
     "clientId": 2,
     "workerId": 1,
