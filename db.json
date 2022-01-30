@@ -1,11 +1,14 @@
 {
   "users": [
     {
-      "name": "Kenzinho",
       "email": "kenzinho@mail.com",
-      "phone": "(22)98729-9061",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "address": "Rua dos bobos, número 0",
+      "name": "Kenzinho",
+      "phone": "(22)98729-9061",
+      "street": "Gen. Mário Tourinho",
+      "addressNumber": "1733",
+      "addressComplement": "706",
+      "city": "Curitiba",
       "isClient": false,
       "id": 1
     },
@@ -14,7 +17,10 @@
       "password": "$2a$10$N/QQ5ePqtKPAZcJntBNScei8qfEkhwYCt9TIxEDOXxhYwmHUXFaPi",
       "name": "John Doe",
       "phone": "(44)99562-4420",
-      "address": "Rua, número, casa",
+      "street": "Avenida das Américas",
+      "addressNumber": "2345",
+      "addressComplement": "bloco 1, ap 1508",
+      "city": "Rio de Janeiro",
       "isClient": true,
       "id": 2
     },
@@ -22,8 +28,11 @@
       "email": "dogao@mail.com",
       "password": "$2a$10$Xu1lqZoHhQvU3EqFGCegJ.3XOpSOrNP1LZzqubjPaoTP2JT1cGNzi",
       "name": "dogao",
-      "address": 38,
-      "phone": "(92)999774411",
+      "phone": "(11)94586-3462",
+      "street": "",
+      "addressNumber": "",
+      "addressComplement": "",
+      "city": "",
       "isClient": true,
       "id": 3
     }
