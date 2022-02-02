@@ -27,10 +27,7 @@ Formato da requisição:
   "email": "kenzinho@mail.com",
   "phone": "(22)98729-9061",
   "password": "123456",
-  "street": "Gen. Mário Tourinho",
-  "addressNumber": "1733",
-  "addressComplement": "706",
-  "city": "Curitiba",
+  "address": "Gen. Mário Tourinho, 1733, Curitiba",
   "isClient": false
 }
 ```
@@ -45,10 +42,7 @@ Formato da resposta - status 201
     "email": "kenzinho@mail.com",
     "phone": "(22)98729-9061",
     "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-    "street": "Gen. Mário Tourinho",
-    "addressNumber": "1733",
-    "addressComplement": "706",
-    "city": "Curitiba",
+    "address": "Gen. Mário Tourinho, 1733, Curitiba",
     "isClient": false,
     "id": 1
   }
@@ -77,10 +71,7 @@ Formato da resposta - status 200
   "password": "$2a$10$N/QQ5ePqtKPAZcJntBNScei8qfEkhwYCt9TIxEDOXxhYwmHUXFaPi",
   "name": "John Doe",
   "phone": "(44)99562-4420",
-  "street": "Avenida das Américas",
-  "addressNumber": "2345",
-  "addressComplement": "bloco 1, ap 1508",
-  "city": "Rio de Janeiro",
+  "address": "Avenida das Américas, 2345, bloco 1, ap 1508, Rio de Janeiro",
   "isClient": true,
   "id": 2
 }
@@ -111,10 +102,7 @@ Formato da resposta - status 200
     "email": "kenzinho@mail.com",
     "name": "Kenzinho",
     "phone": "(41)977442211",
-    "street": "Gen. Mário Tourinho",
-    "addressNumber": "1733",
-    "addressComplement": "706",
-    "city": "Curitiba",
+    "address": "Gen. Mário Tourinho, 1733, Curitiba",
     "isClient": true,
     "id": 1
   }
